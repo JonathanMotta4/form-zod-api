@@ -34,6 +34,7 @@ export default function Home() {
               {errors.address?.street?.message}
             </p>
           )}
+
           <input
             {...register('address.number')}
             type="text"
